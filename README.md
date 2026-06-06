@@ -5,19 +5,20 @@
 
 ## IP/FQDN リスト
 
+## IP/FQDN リスト
+
 | Service | |
 | --- | --- |
-| Microsoft 365 | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/microsoft365.json` |
-| Microsoft Teams | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/microsoft_teams.json` |
-| Zoom | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/zoom.json` |
-| Zoom Cloud Meetings | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/zoom_cloud_meetings.json` |
-| Cisco Webex Meetings | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/webex_meetings.json` |
-| Windows Update | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/windows_update.json` |
-| Apple | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/apple.json` |
-| Google Workspace | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/google.json` |
-| Google Meet | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/google_meet.json` |
-| Box | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/box.json` |
-
+| Microsoft 365 | [microsoft365.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/microsoft365.json) |
+| Microsoft Teams | [microsoft_teams.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/microsoft_teams.json) |
+| Zoom | [zoom.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/zoom.json) |
+| Zoom Cloud Meetings | [zoom_cloud_meetings.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/zoom_cloud_meetings.json) |
+| Cisco Webex Meetings | [webex_meetings.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/webex_meetings.json) |
+| Windows Update | [windows_update.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/windows_update.json) |
+| Apple | [apple.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/apple.json) |
+| Google Workspace | [google.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/google.json) |
+| Google Meet | [google_meet.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/google_meet.json) |
+| Box | [box.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/box.json) |
 
 ## 取得元ソースURL
 
