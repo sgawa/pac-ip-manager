@@ -547,16 +547,6 @@
       "type": "fqdn",
       "value": "community.box.com",
       "action": "DIRECT"
-    },
-    {
-      "type": "fqdn",
-      "value": "network.http.accept-encoding.secure",
-      "action": "DIRECT"
-    },
-    {
-      "type": "fqdn",
-      "value": "proxy.pac",
-      "action": "DIRECT"
     }
   ]
 }
