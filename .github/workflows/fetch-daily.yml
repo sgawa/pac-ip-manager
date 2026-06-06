@@ -1,0 +1,97 @@
+name: Fetch PAC IP Lists
+
+on:
+  schedule:
+    # 21:00 JST
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-pac-ip-lists
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m pytest
+
+      - name: Fetch and normalize lists
+        run: python main.py
+        env:
+          PAC_IP_MANAGER_LOG_DIR: ${{ runner.temp }}/pac-ip-manager-logs
+
+      - name: Upload daily logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pac-ip-manager-logs
+          path: ${{ runner.temp }}/pac-ip-manager-logs/*.log
+          if-no-files-found: ignore
+
+      - name: Check generated changes
+        id: changes
+        run: |
+          if [[ -n "$(git status --porcelain ip-lists/latest ip-lists/history)" ]]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ip-lists/latest ip-lists/history
+          git commit -m "Update PAC IP lists"
+          git push
+
+      - name: Upload latest lists to Cloudflare KV
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_KV_NAMESPACE_ID: ${{ secrets.CF_KV_NAMESPACE_ID }}
+        run: |
+          if [[ -z "${CF_ACCOUNT_ID}" || -z "${CF_API_TOKEN}" || -z "${CF_KV_NAMESPACE_ID}" ]]; then
+            echo "Cloudflare secrets are not configured. Skipping KV upload."
+            exit 0
+          fi
+
+          shopt -s nullglob
+          files=(ip-lists/latest/*.json)
+
+          if [[ ${#files[@]} -eq 0 ]]; then
+            echo "No latest JSON files found. Skipping KV upload."
+            exit 0
+          fi
+
+          for file in "${files[@]}"; do
+            service="$(basename "${file}" .json)"
+            echo "Uploading ${service} to Cloudflare KV"
+            curl --fail-with-body \
+              --request PUT \
+              --header "Authorization: Bearer ${CF_API_TOKEN}" \
+              --header "Content-Type: application/json" \
+              --data-binary @"${file}" \
+              "https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/storage/kv/namespaces/${CF_KV_NAMESPACE_ID}/values/${service}"
+          done

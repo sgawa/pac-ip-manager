@@ -1,0 +1,262 @@
+{
+  "service": "webex_meetings",
+  "updated_at": "2026-06-06",
+  "schema_version": "1",
+  "entries": [
+    {
+      "type": "ip_range",
+      "value": "23.89.0.0/16",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "62.109.192.0/18",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "64.68.96.0/19",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "66.114.160.0/20",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "66.163.32.0/19",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "69.26.160.0/19",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "114.29.192.0/19",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "150.253.128.0/17",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "170.72.0.0/16",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "170.133.128.0/18",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "173.39.224.0/19",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "173.243.0.0/20",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "207.182.160.0/19",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "209.197.192.0/19",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "210.4.192.0/20",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "216.151.128.0/19",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "144.196.0.0/16",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "163.129.0.0/16",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2402:2500::/32",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2607:fcf0::/32",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2a00:a640::/32",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2402:2500::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2607:fcf0::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2a00:a640::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2402:2500:1000::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2607:fcf0:1000::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2a00:a640:1000::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2402:2500:2000::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2607:fcf0:2000::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2a00:a640:2000::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2402:2500:3000::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2607:fcf0:3000::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2a00:a640:3000::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "20.68.154.0/24",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.wbx2.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.ciscospark.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.webexcontent.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.webex.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.identrust.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.quovadisglobal.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.digicert.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.godaddy.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.lencr.org",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.intel.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.accompany.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.eum-appdynamics.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.appdynamics.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.vbrickrev.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.slido.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.sli.do",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.data.logentries.com",
+      "action": "DIRECT"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "service": "google_meet",
+  "updated_at": "2026-06-06",
+  "schema_version": "1",
+  "entries": [
+    {
+      "type": "url",
+      "value": "https://www.google.com/tools/feedback",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "https://feedback.googleusercontent.com/resources/",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "https://play.google.com/log",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "74.125.250.0/24",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "74.125.247.128/32",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2001:4860:4864:5::0/64",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2001:4860:4864:4:8000::/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "142.250.82.0/24",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2001:4860:4864:6::/64",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "clients2.google.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "clients4.google.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "clients6.google.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "www.gstatic.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fonts.gstatic.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "lh3.googleusercontent.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "meetings.clients6.google.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "accounts.google.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "apis.google.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "meetings.googleapis.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "hangouts.googleapis.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "meet.google.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "apps.google.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "docs.google.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "stream.meet.google.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "workspace.turns.goog",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "meet.turns.goog",
+      "action": "DIRECT"
+    }
+  ]
+}

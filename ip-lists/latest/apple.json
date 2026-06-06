@@ -1,0 +1,677 @@
+{
+  "service": "apple",
+  "updated_at": "2026-06-06",
+  "schema_version": "1",
+  "entries": [
+    {
+      "type": "fqdn",
+      "value": "albert.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "captive.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "gs.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "humb.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "static.ips.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "sq-device.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "tbsc.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "time-ios.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "time.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "time-macos.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.push.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "deviceenrollment.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "deviceservices-external.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "gdmf.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "identity.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "iprofiles.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "mdmenrollment.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "setup.icloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "vpp.itunes.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.appattest.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "axm-servicediscovery.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.business.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.school.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "appleid.cdn-apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "idmsa.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.itunes.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.mzstatic.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "api.ent.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "api.edu.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "statici.icloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.vertexsmb.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "www.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "upload.appleschoolcontent.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "api-business.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "api-school.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ws-ee-maidsvc.icloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "axm-adm-enroll.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "axm-adm-mdm.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "axm-adm-scep.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "axm-app.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.apple-mapkit.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "icons.axm-usercontent-apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "s.mzstatic.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "play.itunes.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ws.school.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "pg-bootstrap.itunes.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "cls-iosclient.itunes.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "cls-ingest.itunes.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "appldnld.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "configuration.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "gg.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ig.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "mesu.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "oscdn.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "osrecovery.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "skl.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "swcdn.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "swdist.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "swdownload.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "swscan.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "updates-http.cdn-apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "updates.cdn-apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "xp.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "gdmf-ados.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "gsra.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "wkms-public.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fcs-keys-pub-prod.cdn-apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.apps.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "itunes.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ppq.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "api.apple-cloudkit.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.apps-marketplace.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "token.safebrowsing.apple",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "audiocontentdownload.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "devimages-cdn.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "download.developer.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "playgrounds-assets-cdn.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "playgrounds-cdn.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "sylvan.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "gateway.icloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "appldnld.apple.com.edgesuite.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "itunes.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "lcdn-registration.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "suconfig.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "xp-cdn.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "lcdn-locator.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "serverstatus.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "bpapi.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "cssubmissions.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fba.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "diagassets.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "doh.dns.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "certs.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "crl.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "crl3.digicert.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "crl4.digicert.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ocsp.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ocsp.digicert.cn",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ocsp.digicert.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ocsp2.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "valid.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "account.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "gsa.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.apple-cloudkit.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.apple-livephotoskit.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.apzones.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.cdn-apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.gc.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.icloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.icloud.com.cn",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.icloud.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.icloud-content.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.iwork.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "mask.icloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "mask-h2.icloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "mask-api.icloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "probe.icloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "pong.icloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "metrics.icloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "apple-native-relay.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "guzzoni.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.smoot.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "apple-relay.cloudflare.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "apple-relay.fastly-edge.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "cp4.cloudflare.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "apple-relay.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "app-site-association.cdn-apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "app-site-association.networking.apple",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "pos-device.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "iphonesubmissions.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "smp-device-content.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "idv.cdn-apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "idv-prod1.apple.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ns.itunes.apple.com",
+      "action": "DIRECT"
+    }
+  ]
+}

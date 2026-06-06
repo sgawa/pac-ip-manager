@@ -1,0 +1,562 @@
+{
+  "service": "box",
+  "updated_at": "2026-06-06",
+  "schema_version": "1",
+  "entries": [
+    {
+      "type": "ip_range",
+      "value": "17.0.0.0/8",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "216.198.0.0/18",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "104.18.249.37/32",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "104.18.248.37/32",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.app.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.ent.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.box.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.boxcdn.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.boxcloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.services.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.box-test.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "app.boxenterprise.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "cdn.jsdelivr.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "unpkg.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fonts.gstatic.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fonts.googleapis.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "support.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "docs.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "leaves.mintlify.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "hcaptcha.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.hcaptcha.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "box.zendesk.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.brightcove.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.brightcove.services",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.zencdn.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.boltdns.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.akamaihd.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.yext.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "training.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.demdex.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "2.realtime.services.box.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "account.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "api.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "app.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ent.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "captcha.boxcdn.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "cdn01.boxcdn.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "cdn20.boxcdn.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "client-log.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "developer.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "dl.boxcloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "dl2.boxcloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "dl20.boxcloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "public.boxcloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "e3.boxcdn.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "newassets-captcha.boxcdn.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "notes.services.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "rtg.services.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "sso.services.box.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "track.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "upload.app.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "upload.ent.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "upload.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "upload.box.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "images-captcha.boxcdn.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "reportapi-captcha.boxcdn.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "edge.api.brightcove.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "gallery.assets.brightcove.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "interactivity-collector.metric.brightcove.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "interactivity.viewer.api.brightcove.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "metrics.brightcove.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "player.interactivity.brightcove.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "players.brightcove.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "cdn.vee.brightcove.services",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "reflector.brightcove.services",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "resources.interactivity.brightcove.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "simulive-license-service.brightcove.services",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "vjs.zencdn.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "cf-images.us-east-1.prod.boltdns.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "cbolt446c5271-a.akamaihd.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "liveapi-cached.yext.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "liveapi.yext.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "realtimeanalytics.yext.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "sanalytics.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "box.demdex.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "dpm.demdex.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "pendo-data-prod.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "pendo-prod.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "sftp.services.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "sftp-ane1.services.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "sftp-ausse1.services.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "sftp-euw2.services.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "sftp-euw3.services.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "box-test.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fupload-nane1.app.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fupload-nane1.ent.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "nane1.boxcloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fupload-euw2.app.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fupload-euw2.ent.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "euw2.boxcloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fupload-euc1.app.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fupload-euc1.ent.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "euc1.boxcloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fupload-ane1.app.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fupload-ane1.ent.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ane1.boxcloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fupload-ause1.app.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fupload-ause1.ent.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ause1.boxcloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fupload-usw1.app.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fupload-usw1.ent.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "usw1.boxcloud.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "assets.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "www.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "www.box.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "status.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "blog.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "community.box.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "network.http.accept-encoding.secure",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "proxy.pac",
+      "action": "DIRECT"
+    }
+  ]
+}

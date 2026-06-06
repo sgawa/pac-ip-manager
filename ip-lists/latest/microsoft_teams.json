@@ -1,0 +1,112 @@
+{
+  "service": "microsoft_teams",
+  "updated_at": "2026-06-06",
+  "schema_version": "1",
+  "entries": [
+    {
+      "type": "ip_range",
+      "value": "52.112.0.0/14",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "52.122.0.0/15",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1063::/38",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.lync.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.teams.cloud.microsoft",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.teams.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "teams.cloud.microsoft",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "teams.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1027::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1037::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1047::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1057::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:6::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:40::/42",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.keydelivery.mediaservices.windows.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.streaming.mediaservices.windows.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "aka.ms",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "adl.windows.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "join.secure.skypeassets.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "mlccdnprod.azureedge.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.skype.com",
+      "action": "DIRECT"
+    }
+  ]
+}

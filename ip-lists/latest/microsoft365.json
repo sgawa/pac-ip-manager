@@ -1,0 +1,1427 @@
+{
+  "service": "microsoft365",
+  "updated_at": "2026-06-06",
+  "schema_version": "1",
+  "entries": [
+    {
+      "type": "url",
+      "value": "outlook.cloud.microsoft",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "outlook.office.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "outlook.office365.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "13.107.6.152/31",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "13.107.18.10/31",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "13.107.128.0/22",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "23.103.160.0/20",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "40.96.0.0/13",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "40.104.0.0/15",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "52.96.0.0/14",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "131.253.33.215/32",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "132.245.0.0/16",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "150.171.32.0/22",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "204.79.197.215/32",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1006::/40",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1016::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1026::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1036::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1046::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1056::/36",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:4::152/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:4::153/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:c::10/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:c::11/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:d::10/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:d::11/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:8f0::/46",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:900::/46",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:a92::152/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:a92::153/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "smtp.office365.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.outlook.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "autodiscover.*.onmicrosoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.protection.outlook.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "40.92.0.0/15",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "40.107.0.0/16",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "52.100.0.0/14",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "52.238.78.88/32",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "104.47.0.0/17",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2a01:111:f400::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2a01:111:f403::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.mail.protection.outlook.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.mx.microsoft",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "52.112.0.0/14",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "52.122.0.0/15",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1063::/38",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.lync.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.teams.cloud.microsoft",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.teams.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "teams.cloud.microsoft",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "teams.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1027::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1037::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1047::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1057::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:6::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:40::/42",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.keydelivery.mediaservices.windows.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.streaming.mediaservices.windows.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "aka.ms",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "adl.windows.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "join.secure.skypeassets.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "mlccdnprod.azureedge.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.sharepoint.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "13.107.136.0/22",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "40.108.128.0/17",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "52.104.0.0/14",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "104.146.128.0/17",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "150.171.40.0/22",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1061:1300::/40",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1063:6000::/35",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:8f8::/46",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:908::/46",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2a01:111:f402::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "storage.live.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.wns.windows.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "admin.onedrive.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "officeclient.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "g.live.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "oneclient.sfx.ms",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.sharepointonline.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "spoprod-a.akamaihd.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.svc.ms",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.officeapps.live.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.online.office.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "office.live.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "13.107.6.171/32",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "13.107.18.15/32",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "13.107.140.6/32",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "52.108.0.0/14",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "52.244.37.168/32",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1006:1400::/40",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1016:2400::/40",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1026:2400::/40",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1036:2400::/40",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1046:1400::/40",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1056:1400::/40",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1063:2000::/38",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:c::15/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:8fc::6/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:a92::171/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2a01:111:f100:2000::a83e:3019/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2a01:111:f100:2002::8975:2d79/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2a01:111:f100:2002::8975:2da8/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2a01:111:f100:7000::6fdd:6cd5/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2a01:111:f100:a004::bfeb:88cf/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.office.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.onenote.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*cdn.onenote.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "ajax.aspnetcdn.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "apis.live.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "officeapps.live.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "www.onedrive.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.auth.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.msftidentity.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.msidentity.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "account.activedirectory.windowsazure.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "accounts.accesscontrol.windows.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "adminwebservice.microsoftonline.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "api.passwordreset.microsoftonline.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "autologon.microsoftazuread-sso.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "becws.microsoftonline.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "ccs.login.microsoftonline.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "clientconfig.microsoftonline-p.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "companymanager.microsoftonline.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "device.login.microsoftonline.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "graph.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "graph.windows.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "login-us.microsoftonline.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "login.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "login.microsoftonline-p.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "login.microsoftonline.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "login.windows.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "logincert.microsoftonline.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "loginex.microsoftonline.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "nexus.microsoftonline-p.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "passwordreset.microsoftonline.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "provisioningapi.microsoftonline.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "20.20.32.0/19",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "20.190.128.0/18",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "20.231.128.0/19",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "40.126.0.0/18",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1006:2000::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1007:200::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1016:1400::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1017::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1026:3000::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1027:1::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1036:3000::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1037:1::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1046:2000::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1047:1::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1056:2000::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2603:1057:2::/48",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.hip.live.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.microsoftonline-p.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.microsoftonline.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.msauth.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.msauthimages.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.msecnd.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.msftauth.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.msftauthimages.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.phonefactor.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "enterpriseregistration.windows.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.protection.office.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.security.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "compliance.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "defender.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "protection.office.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "purview.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "security.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "13.107.6.192/32",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "13.107.9.192/32",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:4::192/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "2620:1ec:a92::192/128",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.portal.cloudappsecurity.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.aria.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.events.data.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.o365weve.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "amp.azure.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "appsforoffice.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "assets.onestore.ms",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "auth.gfx.ms",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "c1.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "dgps.support.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "docs.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "msdn.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "platform.linkedin.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "prod.msocdn.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "shellprod.msocdn.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "support.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "technet.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.office365.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.aadrm.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.azurerms.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.informationprotection.azure.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "ecn.dev.virtualearth.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "informationprotection.hosting.portal.azure.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "dc.services.visualstudio.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "mem.gfx.ms",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.msocdn.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.onmicrosoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "o15.officeredir.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "officepreviewredir.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "officeredir.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "r.office.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "activation.sls.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "crl.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "office15client.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "go.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "cdn.odc.officeapps.live.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "officecdn.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "otelrules.azureedge.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.virtualearth.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "c.bing.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "ocos-office365-s2s.msedge.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "tse1.mm.bing.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "www.bing.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.acompli.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.outlookmobile.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "login.windows-ppe.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "account.live.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "login.live.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "www.acompli.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.appex-rf.msn.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.appex.bing.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "c.bing.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "c.live.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "partnerservices.getmicrosoftkey.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "signup.live.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.yammer.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.yammerusercontent.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.assets-yammer.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "www.outlook.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "eus-www.sway-cdn.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "eus-www.sway-extensions.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "wus-www.sway-cdn.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "wus-www.sway-extensions.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "sway.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "www.sway.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.entrust.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.geotrust.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.omniroot.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.public-trust.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.symcb.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.symcd.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.verisign.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.verisign.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "cacerts.digicert.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "cert.int-x3.letsencrypt.org",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "crl.globalsign.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "crl.globalsign.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "crl.identrust.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "crl3.digicert.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "crl4.digicert.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "isrg.trustid.ocsp.identrust.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "mscrl.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "ocsp.digicert.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "ocsp.globalsign.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "ocsp.msocsp.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "ocsp2.globalsign.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "ocspx.digicert.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "oneocsp.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "secure.globalsign.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "www.digicert.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "www.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "officespeech.platform.bing.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.skype.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.office.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "www.microsoft365.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.microsoftusercontent.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.azure-apim.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.flow.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.powerapps.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.powerautomate.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.activity.windows.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "activity.windows.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.cortana.ai",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "admin.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "cdn.uci.officeapps.live.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.cloud.microsoft",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.static.microsoft",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.usercontent.microsoft",
+      "action": "DIRECT"
+    }
+  ]
+}

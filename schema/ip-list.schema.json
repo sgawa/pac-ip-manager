@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/pac-ip-manager/ip-list.schema.json",
+  "title": "PAC IP List",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "service",
+    "updated_at",
+    "schema_version",
+    "entries"
+  ],
+  "properties": {
+    "service": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9_-]+$"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "schema_version": {
+      "type": "string",
+      "const": "1"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "type",
+          "value",
+          "action"
+        ],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "url",
+              "ip_range",
+              "fqdn"
+            ]
+          },
+          "value": {
+            "type": "string",
+            "minLength": 1
+          },
+          "action": {
+            "type": "string",
+            "const": "DIRECT"
+          }
+        }
+      },
+      "uniqueItems": true
+    }
+  }
+}

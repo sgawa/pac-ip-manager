@@ -1,0 +1,52 @@
+{
+  "service": "windows_update",
+  "updated_at": "2026-06-06",
+  "schema_version": "1",
+  "entries": [
+    {
+      "type": "fqdn",
+      "value": "definitionupdates.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.prod.do.dsp.mp.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.dl.delivery.mp.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.windowsupdate.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.delivery.mp.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.update.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "adl.windows.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "tsfe.trafficshaping.dsp.mp.microsoft.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.api.cdp.microsoft.com",
+      "action": "DIRECT"
+    }
+  ]
+}
