@@ -3,9 +3,25 @@
 ローカルブレイクアウト（LBO）等の運用で利用するIPアドレス及び、FQDNリストを毎日取得し、共通 JSON フォーマットへ正規化して自動保存します。
 スクリプトは、Gituhub Actionでの運用となっています。
 
-## 対象サービス
+## IP/FQDN リスト
 
-| Service | Source | Output |
+| Service | |
+| --- | --- |
+| Microsoft 365 | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/microsoft365.json` |
+| Microsoft Teams | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/microsoft_teams.json` |
+| Zoom | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/zoom.json` |
+| Zoom Cloud Meetings | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/zoom_cloud_meetings.json` |
+| Cisco Webex Meetings | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/webex_meetings.json` |
+| Windows Update | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/windows_update.json` |
+| Apple | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/apple.json` |
+| Google Workspace | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/google.json` |
+| Google Meet | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/google_meet.json` |
+| Box | `https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/box.json` |
+
+
+## 取得元ソースURL
+
+| サービス | ソース | Output |
 | --- | --- | --- |
 | Microsoft 365 | `https://endpoints.office.com/endpoints/worldwide?...` | `urls` -> `url`, `ips` -> `ip_range` |
 | Microsoft Teams | `https://endpoints.office.com/endpoints/worldwide?...` | Microsoft Teams records only: `urls` -> `url`, `ips` -> `ip_range` |
