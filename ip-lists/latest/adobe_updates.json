@@ -1,0 +1,142 @@
+{
+  "service": "adobe_updates",
+  "updated_at": "2026-06-07",
+  "schema_version": "1",
+  "entries": [
+    {
+      "type": "fqdn",
+      "value": "acrs.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "adobecloudpackager.adobe.io",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "adminconsole.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "cc-ext-prod-pkgs.s3.amazonaws.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ccmdls.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ccmdl.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ans.oobesaas.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ars.oobesaas.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "cdn-ffc.oobesaas.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ffc-icons.oobesaas.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ffc-static-cdn.oobesaas.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "prod-rel-ffc-ccm.oobesaas.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "acc.adobeoobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "prod.acp.adobeoobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "mir-s3-cdn-cf.behance.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "swupmf.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "swupdl.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "oobe.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "productrouter.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "s3.amazonaws.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "s3.amazonaws.com/tron-ffc-icons-prod/",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "tron-prod-customized-user-packages.s3.amazonaws.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "armmf.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ardownload.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ardownload2.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "agsupdate.adobe.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "http://armdl.adobe.com/",
+      "action": "DIRECT"
+    }
+  ]
+}

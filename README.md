@@ -12,13 +12,18 @@
 | Microsoft 365 | [microsoft365.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/microsoft365.json) |
 | Microsoft Teams | [microsoft_teams.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/microsoft_teams.json) |
 | Zoom | [zoom.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/zoom.json) |
-| Zoom Cloud Meetings | [zoom_cloud_meetings.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/zoom_cloud_meetings.json) |
 | Cisco Webex Meetings | [webex_meetings.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/webex_meetings.json) |
 | Windows Update | [windows_update.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/windows_update.json) |
 | Apple | [apple.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/apple.json) |
 | Google Workspace | [google.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/google.json) |
 | Google Meet | [google_meet.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/google_meet.json) |
 | Box | [box.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/box.json) |
+| Netflix | [netflix.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/netflix.json) |
+| Amazon Prime Video | [prime_video.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/prime_video.json) |
+| YouTube | [youtube.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/youtube.json) |
+| Instagram | [instagram.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/instagram.json) |
+| TikTok | [tiktok.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/tiktok.json) |
+| Adobe Updates | [adobe_updates.json](https://raw.githubusercontent.com/sgawa/pac-ip-manager/refs/heads/main/ip-lists/latest/adobe_updates.json) |
 
 ## 取得元ソースURL
 
@@ -27,13 +32,21 @@
 | Microsoft 365 | `https://endpoints.office.com/endpoints/worldwide?...` | `urls` -> `url`, `ips` -> `ip_range` |
 | Microsoft Teams | `https://endpoints.office.com/endpoints/worldwide?...` | Microsoft Teams records only: `urls` -> `url`, `ips` -> `ip_range` |
 | Zoom | `https://assets.zoom.us/docs/ipranges/Zoom.txt` | 各行 -> `ip_range` |
-| Zoom Cloud Meetings | `https://assets.zoom.us/docs/ipranges/Zoom.txt` | 各行 -> `ip_range` |
 | Cisco Webex Meetings | `https://help.webex.com/en-us/article/WBX264/Network-Requirements-for-Webex-Services` | CIDR -> `ip_range`, domains -> `url` / `fqdn` |
 | Windows Update | `https://learn.microsoft.com/en-us/windows/privacy/manage-windows-11-endpoints` | Windows Update section destinations -> `url` / `fqdn` |
 | Apple | `https://support.apple.com/en-us/101555` | ホスト名 -> `fqdn` / ワイルドカード -> `url` |
 | Google Workspace | `https://www.gstatic.com/ipranges/goog.json` | `prefixes[].ipv4Prefix` -> `ip_range` |
 | Google Meet | `https://support.google.com/a/answer/1279090?hl=en-GB` | Meet URIs/SNI -> `fqdn` / `url`, media CIDR -> `ip_range` |
 | Box | Box firewall support page and `https://support.box.com/ips` | domains -> `url` / `fqdn`, CIDR -> `ip_range` |
+| Netflix | Curated primary application domains | domains -> `fqdn` / wildcard domains -> `url` |
+| Amazon Prime Video | Curated primary application domains | domains -> `fqdn` / wildcard domains -> `url` |
+| YouTube | Curated primary application domains | domains -> `fqdn` / wildcard domains -> `url` |
+| Instagram | Curated primary application domains | domains -> `fqdn` / wildcard domains -> `url` |
+| TikTok | Curated primary application domains | domains -> `fqdn` / wildcard domains -> `url` |
+| Adobe Updates | `https://helpx.adobe.com/enterprise/kb/network-endpoints.html` | Deployment and fulfillment services / Updater only -> `fqdn` / `url` |
+
+Netflix、Amazon Prime Video、YouTube、Instagram、TikTok は固定 IP レンジではなく CDN / クラウド基盤が頻繁に変わるため、広すぎるクラウド/CDN全体の許可を避け、主要ドメインとワイルドカードドメインに絞って収録しています。
+Adobe Updates は Adobe 公式ページの `Deployment and fulfillment services` と `Updater` のみを対象にしています。公式ページ取得に失敗した場合は、同セクションの fallback リストで生成します。
 
 ## JSON フォーマット
 
@@ -72,6 +85,7 @@ python main.py
 ```bash
 python main.py --service zoom
 python main.py --service microsoft_teams
+python main.py --service adobe_updates
 python -m fetchers.microsoft365
 ```
 
@@ -118,7 +132,7 @@ Cloudflare KV 連携には以下の GitHub Secrets が必要。
 | `CF_API_TOKEN` | Cloudflare API Token |
 | `CF_KV_NAMESPACE_ID` | KV Namespace ID |
 
-KV のキー名はサービス名です。例: `microsoft365`, `microsoft_teams`, `zoom`, `zoom_cloud_meetings`, `webex_meetings`, `windows_update`, `apple`, `google`, `google_meet`, `box`
+KV のキー名はサービス名です。例: `microsoft365`, `microsoft_teams`, `zoom`, `webex_meetings`, `windows_update`, `apple`, `google`, `google_meet`, `box`, `netflix`, `prime_video`, `youtube`, `instagram`, `tiktok`, `adobe_updates`
 
 ## 依存関係の自動更新
 

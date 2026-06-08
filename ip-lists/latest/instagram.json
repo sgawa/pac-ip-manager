@@ -1,0 +1,82 @@
+{
+  "service": "instagram",
+  "updated_at": "2026-06-07",
+  "schema_version": "1",
+  "entries": [
+    {
+      "type": "fqdn",
+      "value": "instagram.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.instagram.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "cdninstagram.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.cdninstagram.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ig.me",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.ig.me",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "instagr.am",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.instagr.am",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "igsonar.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.igsonar.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "z-p42-chat-e2ee-ig.facebook.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "z-p42-chat-e2ee-ig-fallback.facebook.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "mqtt-ig-p4.facebook.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "z-p3-instagram-portal.fb.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "z-p42-instagram-portal.fb.com",
+      "action": "DIRECT"
+    }
+  ]
+}

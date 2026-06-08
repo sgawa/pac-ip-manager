@@ -1,0 +1,97 @@
+{
+  "service": "youtube",
+  "updated_at": "2026-06-07",
+  "schema_version": "1",
+  "entries": [
+    {
+      "type": "fqdn",
+      "value": "youtube.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.youtube.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "youtu.be",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.youtu.be",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "youtube-nocookie.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.youtube-nocookie.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "youtubeeducation.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "www.youtubeeducation.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "googlevideo.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.googlevideo.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ytimg.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.ytimg.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "i.ytimg.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "s.ytimg.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "yt3.ggpht.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "youtubei.googleapis.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "youtube.googleapis.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "youtube-ui.l.google.com",
+      "action": "DIRECT"
+    }
+  ]
+}

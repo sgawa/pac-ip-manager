@@ -40,14 +40,6 @@ def validator() -> Draft202012Validator:
             ],
         },
         {
-            "service": "zoom_cloud_meetings",
-            "updated_at": "2026-06-06",
-            "schema_version": "1",
-            "entries": [
-                {"type": "ip_range", "value": "3.7.35.0/25", "action": "DIRECT"},
-            ],
-        },
-        {
             "service": "microsoft_teams",
             "updated_at": "2026-06-06",
             "schema_version": "1",
@@ -107,6 +99,60 @@ def validator() -> Draft202012Validator:
             "entries": [
                 {"type": "url", "value": "*.box.com", "action": "DIRECT"},
                 {"type": "ip_range", "value": "216.198.0.0/18", "action": "DIRECT"},
+            ],
+        },
+        {
+            "service": "netflix",
+            "updated_at": "2026-06-06",
+            "schema_version": "1",
+            "entries": [
+                {"type": "fqdn", "value": "netflix.com", "action": "DIRECT"},
+                {"type": "url", "value": "*.nflxvideo.net", "action": "DIRECT"},
+            ],
+        },
+        {
+            "service": "prime_video",
+            "updated_at": "2026-06-06",
+            "schema_version": "1",
+            "entries": [
+                {"type": "fqdn", "value": "primevideo.com", "action": "DIRECT"},
+                {"type": "url", "value": "*.aiv-cdn.net", "action": "DIRECT"},
+            ],
+        },
+        {
+            "service": "youtube",
+            "updated_at": "2026-06-06",
+            "schema_version": "1",
+            "entries": [
+                {"type": "fqdn", "value": "youtube.com", "action": "DIRECT"},
+                {"type": "url", "value": "*.googlevideo.com", "action": "DIRECT"},
+            ],
+        },
+        {
+            "service": "instagram",
+            "updated_at": "2026-06-06",
+            "schema_version": "1",
+            "entries": [
+                {"type": "fqdn", "value": "instagram.com", "action": "DIRECT"},
+                {"type": "url", "value": "*.cdninstagram.com", "action": "DIRECT"},
+            ],
+        },
+        {
+            "service": "tiktok",
+            "updated_at": "2026-06-06",
+            "schema_version": "1",
+            "entries": [
+                {"type": "fqdn", "value": "tiktok.com", "action": "DIRECT"},
+                {"type": "url", "value": "*.tiktokcdn.com", "action": "DIRECT"},
+            ],
+        },
+        {
+            "service": "adobe_updates",
+            "updated_at": "2026-06-06",
+            "schema_version": "1",
+            "entries": [
+                {"type": "fqdn", "value": "ccmdl.adobe.com", "action": "DIRECT"},
+                {"type": "url", "value": "http://armdl.adobe.com/", "action": "DIRECT"},
             ],
         },
     ],

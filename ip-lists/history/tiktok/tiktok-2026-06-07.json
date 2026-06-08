@@ -1,0 +1,167 @@
+{
+  "service": "tiktok",
+  "updated_at": "2026-06-07",
+  "schema_version": "1",
+  "entries": [
+    {
+      "type": "fqdn",
+      "value": "tiktok.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.tiktok.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "tiktokv.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.tiktokv.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "tiktokv.us",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.tiktokv.us",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "tiktokcdn.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.tiktokcdn.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "tiktokcdn-us.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.tiktokcdn-us.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "tiktokcdn-eu.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.tiktokcdn-eu.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "tiktokw.us",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.tiktokw.us",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ttdns2.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.ttdns2.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "byteoversea.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.byteoversea.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "bytefcdn-oversea.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.bytefcdn-oversea.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ibytedtos.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.ibytedtos.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ibyteimg.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.ibyteimg.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "muscdn.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.muscdn.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "musical.ly",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.musical.ly",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "snssdk.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.snssdk.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "ttwstatic.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.ttwstatic.com",
+      "action": "DIRECT"
+    }
+  ]
+}

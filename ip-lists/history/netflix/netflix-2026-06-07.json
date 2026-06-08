@@ -1,0 +1,97 @@
+{
+  "service": "netflix",
+  "updated_at": "2026-06-07",
+  "schema_version": "1",
+  "entries": [
+    {
+      "type": "fqdn",
+      "value": "netflix.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.netflix.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "netflix.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.netflix.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "nflxvideo.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.nflxvideo.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "nflximg.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.nflximg.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "nflximg.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.nflximg.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "nflxso.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.nflxso.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "nflxext.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.nflxext.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "nflxsearch.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.nflxsearch.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "fast.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.fast.com",
+      "action": "DIRECT"
+    }
+  ]
+}

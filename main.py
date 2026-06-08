@@ -12,16 +12,23 @@ from typing import Any
 
 from jsonschema import Draft202012Validator, FormatChecker
 
+from fetchers.adobe_updates import AdobeUpdatesFetcher
 from fetchers.apple import AppleFetcher
 from fetchers.box import BoxFetcher
 from fetchers.google import GoogleFetcher
 from fetchers.google_meet import GoogleMeetFetcher
 from fetchers.microsoft365 import Microsoft365Fetcher
 from fetchers.microsoft_teams import MicrosoftTeamsFetcher
+from fetchers.static_domains import (
+    InstagramFetcher,
+    NetflixFetcher,
+    PrimeVideoFetcher,
+    TikTokFetcher,
+    YouTubeFetcher,
+)
 from fetchers.webex_meetings import WebexMeetingsFetcher
 from fetchers.windows_update import WindowsUpdateFetcher
 from fetchers.zoom import ZoomFetcher
-from fetchers.zoom_cloud_meetings import ZoomCloudMeetingsFetcher
 
 
 ROOT_DIR = Path(__file__).resolve().parent
@@ -33,13 +40,18 @@ FETCHER_CLASSES = {
     Microsoft365Fetcher.service: Microsoft365Fetcher,
     MicrosoftTeamsFetcher.service: MicrosoftTeamsFetcher,
     ZoomFetcher.service: ZoomFetcher,
-    ZoomCloudMeetingsFetcher.service: ZoomCloudMeetingsFetcher,
     WebexMeetingsFetcher.service: WebexMeetingsFetcher,
     WindowsUpdateFetcher.service: WindowsUpdateFetcher,
     AppleFetcher.service: AppleFetcher,
     GoogleFetcher.service: GoogleFetcher,
     GoogleMeetFetcher.service: GoogleMeetFetcher,
     BoxFetcher.service: BoxFetcher,
+    NetflixFetcher.service: NetflixFetcher,
+    PrimeVideoFetcher.service: PrimeVideoFetcher,
+    YouTubeFetcher.service: YouTubeFetcher,
+    InstagramFetcher.service: InstagramFetcher,
+    TikTokFetcher.service: TikTokFetcher,
+    AdobeUpdatesFetcher.service: AdobeUpdatesFetcher,
 }
 
 

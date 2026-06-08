@@ -1,0 +1,97 @@
+{
+  "service": "prime_video",
+  "updated_at": "2026-06-07",
+  "schema_version": "1",
+  "entries": [
+    {
+      "type": "fqdn",
+      "value": "primevideo.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.primevideo.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "amazonvideo.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.amazonvideo.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "aiv-cdn.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.aiv-cdn.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "aiv-delivery.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.aiv-delivery.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "pv-cdn.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.pv-cdn.net",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "prime-video.amazon.dev",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.prime-video.amazon.dev",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "video.a2z.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.video.a2z.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "atv-ext.amazon.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "atv-ps.amazon.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "fqdn",
+      "value": "media-amazon.com",
+      "action": "DIRECT"
+    },
+    {
+      "type": "url",
+      "value": "*.media-amazon.com",
+      "action": "DIRECT"
+    }
+  ]
+}

@@ -2,16 +2,17 @@ from __future__ import annotations
 
 from datetime import date
 
+from fetchers.adobe_updates import AdobeUpdatesFetcher
 from fetchers.apple import AppleFetcher
 from fetchers.box import BoxFetcher
 from fetchers.google import GoogleFetcher
 from fetchers.google_meet import GoogleMeetFetcher
 from fetchers.microsoft365 import Microsoft365Fetcher
 from fetchers.microsoft_teams import MicrosoftTeamsFetcher
+from fetchers.static_domains import NetflixFetcher, YouTubeFetcher
 from fetchers.webex_meetings import WebexMeetingsFetcher
 from fetchers.windows_update import WindowsUpdateFetcher
 from fetchers.zoom import ZoomFetcher
-from fetchers.zoom_cloud_meetings import ZoomCloudMeetingsFetcher
 
 
 def assert_common_entries(entries: list[dict[str, str]]) -> None:
@@ -61,15 +62,6 @@ def test_zoom_normalize_text_lines() -> None:
     assert entries == [
         {"type": "ip_range", "value": "3.7.35.0/25", "action": "DIRECT"},
         {"type": "ip_range", "value": "3.21.137.128/25", "action": "DIRECT"},
-    ]
-    assert_common_entries(entries)
-
-
-def test_zoom_cloud_meetings_uses_zoom_ip_ranges() -> None:
-    entries = ZoomCloudMeetingsFetcher().normalize("3.7.35.0/25\n")
-
-    assert entries == [
-        {"type": "ip_range", "value": "3.7.35.0/25", "action": "DIRECT"},
     ]
     assert_common_entries(entries)
 
@@ -234,6 +226,57 @@ def test_google_normalize_ipv4_prefixes_only() -> None:
         {"type": "ip_range", "value": "8.8.8.0/24", "action": "DIRECT"},
         {"type": "ip_range", "value": "8.8.4.0/24", "action": "DIRECT"},
     ]
+    assert_common_entries(entries)
+
+
+def test_static_domain_fetchers_normalize_domains() -> None:
+    netflix_entries = NetflixFetcher().normalize(["netflix.com", "*.nflxvideo.net"])
+    youtube_entries = YouTubeFetcher().normalize(["youtube.com", "*.googlevideo.com"])
+
+    assert netflix_entries == [
+        {"type": "fqdn", "value": "netflix.com", "action": "DIRECT"},
+        {"type": "url", "value": "*.nflxvideo.net", "action": "DIRECT"},
+    ]
+    assert youtube_entries == [
+        {"type": "fqdn", "value": "youtube.com", "action": "DIRECT"},
+        {"type": "url", "value": "*.googlevideo.com", "action": "DIRECT"},
+    ]
+    assert_common_entries(netflix_entries)
+    assert_common_entries(youtube_entries)
+
+
+def test_adobe_updates_normalize_selected_sections_only() -> None:
+    raw = """
+    <html><body>
+      <p>Licensing-activation services:</p>
+      <ul><li>lm.licenses.adobe.com</li></ul>
+      <p>Deployment and fulfillment services:</p>
+      <ul>
+        <li>ccmdl.adobe.com</li>
+        <li>s3.amazonaws.com/tron-ffc-icons-prod/</li>
+        <li>ardownload.adobe.com (HTTP only)</li>
+      </ul>
+      <p>Adobe-hosted authentication services:</p>
+      <ul><li>ims-na1.adobelogin.com</li></ul>
+      <p>Updater:</p>
+      <ul>
+        <li>armmf.adobe.com</li>
+        <li>http://armdl.adobe.com/</li>
+      </ul>
+    </body></html>
+    """
+
+    entries = AdobeUpdatesFetcher().normalize(raw)
+
+    assert entries == [
+        {"type": "fqdn", "value": "ccmdl.adobe.com", "action": "DIRECT"},
+        {"type": "url", "value": "s3.amazonaws.com/tron-ffc-icons-prod/", "action": "DIRECT"},
+        {"type": "fqdn", "value": "ardownload.adobe.com", "action": "DIRECT"},
+        {"type": "fqdn", "value": "armmf.adobe.com", "action": "DIRECT"},
+        {"type": "url", "value": "http://armdl.adobe.com/", "action": "DIRECT"},
+    ]
+    assert {"type": "fqdn", "value": "lm.licenses.adobe.com", "action": "DIRECT"} not in entries
+    assert {"type": "fqdn", "value": "ims-na1.adobelogin.com", "action": "DIRECT"} not in entries
     assert_common_entries(entries)
 
 
