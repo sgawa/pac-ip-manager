@@ -1,6 +1,6 @@
 {
   "service": "zoom",
-  "updated_at": "2026-08-30",
+  "updated_at": "2026-10-08",
   "schema_version": "1",
   "entries": [
     {
@@ -15,7 +15,12 @@
     },
     {
       "type": "ip_range",
-      "value": "3.235.96.0/23",
+      "value": "3.235.96.26/31",
+      "action": "DIRECT"
+    },
+    {
+      "type": "ip_range",
+      "value": "3.235.96.158/31",
       "action": "DIRECT"
     },
     {
@@ -65,7 +70,7 @@
     },
     {
       "type": "ip_range",
-      "value": "69.174.108.0/22",
+      "value": "69.174.110.0/23",
       "action": "DIRECT"
     },
     {
