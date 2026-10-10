@@ -1,6 +1,6 @@
 {
   "service": "microsoft_teams",
-  "updated_at": "2026-09-14",
+  "updated_at": "2026-10-10",
   "schema_version": "1",
   "entries": [
     {
@@ -11,11 +11,6 @@
     {
       "type": "ip_range",
       "value": "52.122.0.0/15",
-      "action": "DIRECT"
-    },
-    {
-      "type": "ip_range",
-      "value": "2603:1063::/38",
       "action": "DIRECT"
     },
     {
@@ -41,36 +36,6 @@
     {
       "type": "url",
       "value": "teams.microsoft.com",
-      "action": "DIRECT"
-    },
-    {
-      "type": "ip_range",
-      "value": "2603:1027::/48",
-      "action": "DIRECT"
-    },
-    {
-      "type": "ip_range",
-      "value": "2603:1037::/48",
-      "action": "DIRECT"
-    },
-    {
-      "type": "ip_range",
-      "value": "2603:1047::/48",
-      "action": "DIRECT"
-    },
-    {
-      "type": "ip_range",
-      "value": "2603:1057::/48",
-      "action": "DIRECT"
-    },
-    {
-      "type": "ip_range",
-      "value": "2620:1ec:6::/48",
-      "action": "DIRECT"
-    },
-    {
-      "type": "ip_range",
-      "value": "2620:1ec:40::/42",
       "action": "DIRECT"
     },
     {
